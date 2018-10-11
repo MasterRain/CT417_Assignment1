@@ -1,19 +1,21 @@
+import org.joda.time.LocalDate;
+
 import java.util.ArrayList;
 
 public class Student {
 
     private String name;
     private int age;
-    private String DoB;
+    private LocalDate DoB;
     private int ID;
     private String username;
     private ArrayList<Course> courses;
     private ArrayList<Module> modules;
 
-    public Student(String name, int age, String doB, int ID, String username, ArrayList<Course> courses, ArrayList<Module> modules) {
+    public Student(String name, int age, LocalDate DoB, int ID, String username, ArrayList<Course> courses, ArrayList<Module> modules) {
         this.name = name;
         this.age = age;
-        DoB = doB;
+        this.DoB = DoB;
         this.ID = ID;
         this.username = username;
         this.courses = courses;
@@ -36,11 +38,11 @@ public class Student {
         this.age = age;
     }
 
-    public String getDoB() {
+    public LocalDate getDoB() {
         return DoB;
     }
 
-    public void setDoB(String doB) {
+    public void setDoB(LocalDate doB) {
         DoB = doB;
     }
 
