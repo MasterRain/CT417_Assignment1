@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0cb5d5-891c-4832-9714-ca96e5e58846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,25 +27,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3648" />
-          <entry key="txt" value="259" />
+          <entry key="java" value="3739" />
+          <entry key="txt" value="268" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3648" />
-          <entry key="PLAIN_TEXT" value="259" />
+          <entry key="JAVA" value="3739" />
+          <entry key="PLAIN_TEXT" value="268" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -54,6 +54,9 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment1" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -94,7 +97,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Module.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
@@ -102,6 +105,18 @@
                   <folding>
                     <element signature="e#497#498#0" expanded="true" />
                     <element signature="e#529#530#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -142,9 +157,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ModuleTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+                <state relative-caret-position="370">
+                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#459#468#0" expanded="true" />
                     <element signature="e#546#555#0" expanded="true" />
                     <element signature="e#630#638#0" expanded="true" />
@@ -193,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CourseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ModuleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
       </list>
     </option>
   </component>
@@ -256,25 +273,7 @@
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539785399817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539786421959" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -327,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="All in Assignment_1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Assignment_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -357,13 +356,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.All in Assignment_1" />
       <item itemvalue="JUnit.StudentTest" />
       <item itemvalue="JUnit.StudentTest.getUsername" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.StudentTest" />
         <item itemvalue="JUnit.StudentTest.getUsername" />
       </list>
@@ -379,7 +388,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539270682248</updated>
-      <workItem from="1539781874980" duration="3505000" />
+      <workItem from="1539781874980" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="fixed errors">
       <created>1539273484841</created>
@@ -416,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539784925150</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added courses tests">
+      <created>1539785416439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539785416439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -434,20 +450,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3505000" />
+    <option name="totallyTimeSpent" value="4420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Favorites" order="7" sideWeight="0.50089765" side_tool="true" visible="true" weight="0.25679544" />
+      <window_info anchor="bottom" id="Thumbnails" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -458,8 +474,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49713877" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49713877" weight="0.32891566" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -522,7 +538,8 @@
     <MESSAGE value="Changed username creation" />
     <MESSAGE value="Added student tests" />
     <MESSAGE value="Added course tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added course tests" />
+    <MESSAGE value="Added courses tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added courses tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
@@ -580,6 +597,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ModuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#468#0" expanded="true" />
+            <element signature="e#546#555#0" expanded="true" />
+            <element signature="e#630#638#0" expanded="true" />
+            <element signature="e#714#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Module.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -591,15 +622,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ModuleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#459#468#0" expanded="true" />
-            <element signature="e#546#555#0" expanded="true" />
-            <element signature="e#630#638#0" expanded="true" />
-            <element signature="e#714#722#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
