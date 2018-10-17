@@ -8,16 +8,14 @@ public class Student {
     private int age;
     private LocalDate DoB;
     private int ID;
-    private String username;
     private ArrayList<Course> courses;
     private ArrayList<Module> modules;
 
-    public Student(String name, int age, LocalDate DoB, int ID, String username, ArrayList<Course> courses, ArrayList<Module> modules) {
+    public Student(String name, int age, LocalDate DoB, int ID, ArrayList<Course> courses, ArrayList<Module> modules) {
         this.name = name;
         this.age = age;
         this.DoB = DoB;
         this.ID = ID;
-        this.username = username;
         this.courses = courses;
         this.modules = modules;
     }
@@ -38,7 +36,7 @@ public class Student {
         this.age = age;
     }
 
-    public LocalDate getDoB() {
+    public LocalDate  getDoB() {
         return DoB;
     }
 
@@ -55,11 +53,8 @@ public class Student {
     }
 
     public String getUsername() {
-        return username;
-    }
 
-    public void setUsername(String username) {
-        this.username = username;
+        return "" + name + age;
     }
 
     public ArrayList<Course> getCourses() {
