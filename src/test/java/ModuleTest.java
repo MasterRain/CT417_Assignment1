@@ -32,7 +32,7 @@ public class ModuleTest {
     @Test
     public void getName() {
 
-        assertEquals(startName, test.getName());
+        assertEquals("steve", test.getName());
     }
 
     @Test
