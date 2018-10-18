@@ -5,4 +5,4 @@ jdk:
 
 build:
   ci:
-  - mvn -U clean in
+  - mvn -U clean install
