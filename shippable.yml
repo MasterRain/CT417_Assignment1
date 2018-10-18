@@ -3,3 +3,6 @@ language: java
 jdk:
 - oraclejdk10
 
+build:
+  ci:
+  - mvn -U clean in
